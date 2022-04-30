@@ -29,8 +29,12 @@
       </el-menu-item-group>
     </el-submenu>
     <el-menu-item index="2">
-      <i class="el-icon-menu"></i>
-      <span slot="title">日志模板</span>
+      <template slot="title">
+        <i class="el-icon-menu"></i>
+        <router-link to="/showLogs">
+          <span>日志模板</span>
+        </router-link>
+      </template>
     </el-menu-item>
     <el-menu-item index="3" >
       <i class="el-icon-document"></i>

@@ -1,6 +1,6 @@
 <template>
-    <el-container style="background: #2c3e50;width: 1200px;height: 800px;">
-      <el-aside  width="250px"  style="background: #3742ff">
+    <el-container style="background: #101111;width: 100%;min-height: 100%;height: auto;">
+      <el-aside  width="250px"  style="background: rgb(84,92,100);">
         <navpage></navpage>
       </el-aside>
       <el-container style="border: 5px solid">
